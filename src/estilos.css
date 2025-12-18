@@ -1,0 +1,125 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.woman {
+    width: 100%;
+    display: block;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-top: 1.5rem;
+}
+
+.descricao {
+    color:hsl(224, 23%, 55%);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 1rem 2rem;
+}
+
+.plano {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 1.5rem 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plano img {
+    width: 45px;
+    height: 45px;
+    margin-right: 1rem;
+}
+
+.plano-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.plano-info strong {
+    display: block;
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.plano-info span {
+    color:hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+}
+
+.change { 
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    transition: opacity 0.2s;
+}
+
+.change:hover {
+    opacity: 0.7;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 2rem 2rem 2rem;
+}
+
+#pagamento {
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 15px 20px rgba(56, 41, 224, 0.2);
+    transition: background-color 0.3, transform 0.2s;
+}
+
+#pagamento:hover {
+    background-color: hsl(245, 83%, 68%);
+    transform: scale(1.02);
+}
+
+#cancelar {
+    background: none;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#cancelar:hover {
+    color: hsl(223, 47%, 23%);
+}
+
